@@ -6,13 +6,11 @@ The first arduino being the Master, which starts and ends the game and chooses a
 After being chosen, the number is displayed in binary using LEDs, and the second arduino which is the player, without looking, must give an answer.
 
 ## Tools:
-```
-Arduino
-LEDs
-Buttons
-wires 
-electrical resistance
-```
+- Arduino
+- LEDs
+- Buttons
+- Wires 
+- Electrical resistance
 
 ## My take:
 It was an enjoyable project that helped me develop skills in C language and working with arduino.
