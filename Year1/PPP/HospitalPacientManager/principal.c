@@ -25,7 +25,7 @@ int main(){
             elimina_doente(lista_doentes);
             break;
         case 3:
-            imprime (lista_doentes);
+            imprime(lista_doentes);
             break;
         case 4:
             imprime_tensoes(lista_doentes);
