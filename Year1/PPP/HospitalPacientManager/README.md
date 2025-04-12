@@ -1,4 +1,4 @@
-# Program to manage pacients
+# Pacients Managing Program
 
 ## What is it about?
 This work develops a sophisticated program to manage patients in a hospital, with the aim of providing an efficient and intuitive tool for managing medical data.
