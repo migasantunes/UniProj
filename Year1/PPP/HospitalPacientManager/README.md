@@ -1,4 +1,4 @@
-# Program to manage pacient
+# Program to manage pacients
 
 ## What is it about?
 This work develops a sophisticated program to manage patients in a hospital, with the aim of providing an efficient and intuitive tool for managing medical data.
@@ -14,13 +14,13 @@ Then, it checks for the existence of the "doentes.txt" and "registos.txt" files.
 
 ### Main Menu:
 The program presents an interactive menu with several options for the user:
-i. Introduzir novo Doente: Adds a new patient to the list.
-ii. Eliminar Doente: Removes a patient from the list.
-iii. Listar todos os Doentes: Prints all registered patients.
-iv. Listar Doentes acima de uma tensão: Prints patients whose maximum recorded blood pressure is above a specified value.
-v. Apresentar informações de um Doente: Shows detailed information of a specific patient.
-vi. Novo registo de um Doente: Adds a new record of data (blood pressure, weight, height) for an existing patient.
-vii. Sair: Saves data to files and exits the program.
+- Introduzir novo Doente: Adds a new patient to the list.
+- Eliminar Doente: Removes a patient from the list.
+- Listar todos os Doentes: Prints all registered patients.
+- Listar Doentes acima de uma tensão: Prints patients whose maximum recorded blood pressure is above a specified value.
+- Apresentar informações de um Doente: Shows detailed information of a specific patient.
+- Novo registo de um Doente: Adds a new record of data (blood pressure, weight, height) for an existing patient.
+- Sair: Saves data to files and exits the program.
 
 ### Patient Management:
 - Add Pacient (novo_doente): Receives patient data, validates the entries (birth date, citizen card number, phone number), and inserts the patient into the list.
@@ -48,26 +48,25 @@ vii. Sair: Saves data to files and exits the program.
 - Export Records (insere_registo_fich): Saves records to the registos.txt file.
 
 ## Data Structures
-Doente (Patient):
+- Doente (Patient):
 Contains personal information such as ID, name, date of birth, citizen card number, phone number, and email.
 
-Registo (Record):
+- Registo (Record):
 Contains health measurements: maximum and minimum blood pressure, weight, and height.
 
-Lista:
+- Lista:
 Implemented as a linked list of patients (node), where each node contains a patient and a list of records (lista_reg).
 
-Lista de Registos:
+- Lista de Registos:
 Each node (node_reg) represents a record associated with a specific patient.
 
 ## Main Functions
+- Structure Creation: cria, cria_registo, cria_tensoes
 
-Structure Creation: cria, cria_registo, cria_tensoes
+- Structure Destruction: destroi, destroi_reg, destroi_ten
 
-Structure Destruction: destroi, destroi_reg, destroi_ten
+- Insertion and Removal: insere, elimina, insere_registo, elimina_doente
 
-Insertion and Removal: insere, elimina, insere_registo, elimina_doente
+- Search: procura, procura_id, procura_data
 
-Search: procura, procura_id, procura_data
-
-Validations: dataValida, ccValido, telefoneValido
+- Validations: dataValida, ccValido, telefoneValido
