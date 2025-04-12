@@ -6,6 +6,7 @@ I had to take into account the time that has passed since last activity activati
 - Eat
 - Play
 - Sleep
+
 For sleeping, I had a luminosity sensor that detected the gamma of clarity.
 
 ## My take?
