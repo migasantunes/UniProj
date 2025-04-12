@@ -7,7 +7,7 @@ I had to take into account the time that has passed since last activity activati
 - Play
 - Sleep
 
-For sleeping, I had a luminosity sensor that detected the gamma of clarity.
+For sleeping, I had a luminosity sensor that detected the gamma of clarity, depending on it, the tamagotchi asked to go to sleep.
 
 ## My take?
 The fact that I had to take time into account, the testing and debugging fase was really exhausting as I had to sit and wait for each activation.
