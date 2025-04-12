@@ -1,6 +1,6 @@
 # POO Financial Services (POOFS)
 
-A university project developed by André Leão and José Antunes for the Object-Oriented Programming course. 
+A university project developed by André Leão and José Antunes (me) for the Object-Oriented Programming course. 
 The application simulates a financial service system that handles clients, invoices, and categorized products such as food and pharmaceutical items.
 It focuses on object-oriented principles, data encryption, and efficient file management.
 
