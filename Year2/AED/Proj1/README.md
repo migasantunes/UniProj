@@ -27,9 +27,9 @@ It measures the execution time of each method and visualizes their computational
 
 - **Complexity Analysis**:
   - Generates performance graphs and regression curves to model each algorithm:
-    - Quadratic regression for exhaustive search.
-    - `n log n` regression for sorting-based.
-    - Linear regression for the mathematical method.
+    - `O(n²)` regression for exhaustive search.
+    - `O(n log n)` regression for sorting-based.
+    - `O(1)` regression for the mathematical method.
   - Displays R² values to assess regression fit quality.
 
 - **Results Table**:
