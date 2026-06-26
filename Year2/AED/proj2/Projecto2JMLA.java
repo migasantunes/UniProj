@@ -38,12 +38,12 @@ public class Projecto2JMLA {
         }
 
 
-        // //Binary tree
-        // for (int i = 0; i < sizes.length; i++) {
-        //     times[i] = binaryTree(sizes[i], Arrays.copyOfRange(listKeysA, 0, sizes[i]), Arrays.copyOfRange(listKeysB, 0, sizes[i]), Arrays.copyOfRange(listKeysC, 0, sizes[i]), Arrays.copyOfRange(listKeysD, 0, sizes[i]));
-        // }
+        //Binary tree
+        for (int i = 0; i < sizes.length; i++) {
+            times[i] = binaryTree(sizes[i], Arrays.copyOfRange(listKeysA, 0, sizes[i]), Arrays.copyOfRange(listKeysB, 0, sizes[i]), Arrays.copyOfRange(listKeysC, 0, sizes[i]), Arrays.copyOfRange(listKeysD, 0, sizes[i]));
+        }
 
-        // re.ExportResults(times, rotationsResults, "-resultsBinary.csv", sizes);
+        re.ExportResults(times, rotationsResults, "-resultsBinary.csv", sizes);
 
         //AVL tree
         for (int i = 0; i < sizes.length; i++) {

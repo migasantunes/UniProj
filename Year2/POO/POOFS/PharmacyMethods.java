@@ -1,4 +1,4 @@
-package projetoPOOAndreMiguel;
+package POOFS;
 
 /**
  * Provides methods for creating and editing pharmacy products.

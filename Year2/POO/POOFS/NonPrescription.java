@@ -1,4 +1,4 @@
-package projetoPOOAndreMiguel;
+package POOFS;
 
 /**
  * Represents a NonPrescription pharmacy product.

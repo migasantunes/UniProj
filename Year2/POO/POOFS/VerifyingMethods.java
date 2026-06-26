@@ -1,4 +1,4 @@
-package projetoPOOAndreMiguel;
+package POOFS;
 
 import java.util.ArrayList;
 import java.util.Scanner;

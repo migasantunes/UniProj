@@ -1,4 +1,4 @@
-package projetoPOOAndreMiguel;
+package POOFS;
 
 /**
  * Represents an intermediate food product with a class.

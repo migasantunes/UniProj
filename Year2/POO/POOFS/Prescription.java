@@ -1,4 +1,4 @@
-package projetoPOOAndreMiguel;
+package POOFS;
 
 /**
  * Represents a prescription pharmacy product.

@@ -1,4 +1,4 @@
-package projetoPOOAndreMiguel;
+package POOFS;
 
 import java.util.ArrayList;
 
@@ -184,7 +184,7 @@ public class Poofs {
                     break;
                 case 0:
                     System.out.println("quitting...");
-                    fh.exportData(clients, "projetoPOOAndreMiguel/clients.txt");
+                    fh.exportData(clients, "POOFS/clients.txt");
                     break;
            }
         }
